@@ -1,0 +1,119 @@
+body { background-color:#FEFEFE;
+font-size:1.1em;
+font-family:Georgia ;
+background-image: url('http://3.bp.blogspot.com/-Xttzv7cxmbQ/T8JUwA0Uk0I/AAAAAAAAFMg/Mee9LMsoJC0/s1600/free+digital+scrapbook+paper_pastel+stripes.jpg');
+}
+    
+    /*backgrundsfärg #FFF5F5
+    färg för header #EF3C7B
+    Container:#E0C2C2
+    kontrastfärg: #910033
+    linkfärg:C82E97
+    */
+
+
+
+#logg { border-bottom: dashed 1px ;
+border-color:#910033;
+}    
+
+
+
+header { background-color:#EF3C7B;
+width:960px;
+overflow: auto;
+margin: 0 auto;
+color:#910033;
+}    
+
+
+H2,H3,H4{color:#EF6C9A;
+}
+
+
+    
+#container {
+  
+Background-color:#E0C2C2;
+width:960px;
+max-height: 800px;
+overflow: auto;
+margin: 0 auto;
+}    
+
+
+    
+
+#nav { 
+background-color:#FEFEFE;
+margin-top: 20px;
+border:dotted 2px;
+border-color:#910033;
+width: 200px;
+height:250px ;
+float: left;
+margin-left:20px;
+}    
+
+
+
+#nav li {background:#C4C4C4;
+width:90%;
+border:solid white 1px;
+border-radius:30%;
+color:#EF3C7B;
+font-size:1.3em;
+list-style-type: none;
+}
+#nav li a{display:block ;
+}
+
+
+.active {display:block;
+background-color:black;
+border-radius:30%;
+text-decoration: none;
+}
+
+
+a:link {color:#EF3C7B;}
+a:visited {color:#C82E97 }
+a:focus {color:#000000;}
+a:hover {color:#000000;
+font-size:1.2em;}
+a:active {color:#910033;
+font-size:1.2em;
+}
+
+
+
+#content { 
+background-color:#FEFEFE;
+margin-left:230px;  
+margin-right: 20px;
+}
+
+.mini{font-size:0.7em;}
+.byt{color:#EF6C9A;}
+.tabell{border: dotted #EF6C9A;
+margin-left:25%;}
+.tabell th,td {border: none;
+background-color:gray;
+}
+
+#bild { width:200px;
+height:150px;
+float:left;
+margin-right:30px;
+background-image:url('http://cdn1.cdnme.se/cdn/6-1/1888849/images/2011/ko_151219283.gif');
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#footer { 
+background-color:#910033;
+font-size:0.8em;
+width:100%;
+min-height: 40px;
+} 
+
