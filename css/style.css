@@ -10,7 +10,12 @@ background-image: url('http://3.bp.blogspot.com/-Xttzv7cxmbQ/T8JUwA0Uk0I/AAAAAAA
     kontrastfärg: #910033
     linkfärg:C82E97
     */
-
+#moln
+{background-image: url('http://i295.photobucket.com/albums/mm151/hoottstuffs/bakgrund.png?t=1386201804');
+width:960px;
+height:400px;
+overflow:auto;
+margin: 0 auto;}
 
 
 #logg { border-bottom: dashed 1px ;
@@ -19,11 +24,16 @@ border-color:#910033;
 
 
 
-header { background-color:#EF3C7B;
+header { background-color:#6F5F48;
+font-size:12px;
+text-align:center;
 width:960px;
 overflow: auto;
 margin: 0 auto;
-color:#910033;
+color:#FEFEFE;
+border-top:solid black;
+border-left: solid white;
+border-right: solid white;
 }    
 
 
@@ -33,7 +43,8 @@ H2,H3,H4{color:#EF6C9A;
 
     
 #container {
-  
+
+border: solid white;  
 Background-color:#E0C2C2;
 width:960px;
 max-height: 800px;
@@ -42,37 +53,39 @@ margin: 0 auto;
 }    
 
 
+
     
 
 #nav { 
 background-color:#FEFEFE;
+text-align: center;
 margin-top: 20px;
 border:dotted 2px;
 border-color:#910033;
 width: 200px;
-height:250px ;
+height:210px ;
 float: left;
-margin-left:20px;
+margin-left:10px;
 }    
 
 
 
-#nav li {background:#C4C4C4;
-width:90%;
+#nav li {background:#EAEAEA;
+text-align:center;
+width:77%;
 border:solid white 1px;
-border-radius:30%;
 color:#EF3C7B;
-font-size:1.3em;
+font-size:1.1em;
 list-style-type: none;
+text-decoration: none;
 }
 #nav li a{display:block ;
 }
 
 
 .active {display:block;
-background-color:black;
-border-radius:30%;
-text-decoration: none;
+background-color:#C4C4C4;
+
 }
 
 
@@ -80,17 +93,16 @@ a:link {color:#EF3C7B;}
 a:visited {color:#C82E97 }
 a:focus {color:#000000;}
 a:hover {color:#000000;
-font-size:1.2em;}
-a:active {color:#910033;
-font-size:1.2em;
-}
+font-size:1.1em;}
+
+
 
 
 
 #content { 
 background-color:#FEFEFE;
 margin-left:230px;  
-margin-right: 20px;
+margin-right: 10px;
 }
 
 .mini{font-size:0.7em;}
@@ -115,5 +127,6 @@ background-color:#910033;
 font-size:0.8em;
 width:100%;
 min-height: 40px;
+max-height: 40px;
 } 
 
