@@ -1,5 +1,5 @@
 body { background-color:#FEFEFE;
-font-size:1.1em;
+font-size:1em;
 font-family:Georgia ;
 background-image: url('http://3.bp.blogspot.com/-Xttzv7cxmbQ/T8JUwA0Uk0I/AAAAAAAAFMg/Mee9LMsoJC0/s1600/free+digital+scrapbook+paper_pastel+stripes.jpg');
 }
@@ -50,11 +50,9 @@ width:960px;
 max-height: 800px;
 overflow: auto;
 margin: 0 auto;
+
 }    
 
-
-
-    
 
 #nav { 
 background-color:#FEFEFE;
@@ -63,11 +61,10 @@ margin-top: 20px;
 border:dotted 2px;
 border-color:#910033;
 width: 200px;
-height:210px ;
+min-height:210px ;
 float: left;
 margin-left:10px;
 }    
-
 
 
 #nav li {background:#EAEAEA;
@@ -82,12 +79,18 @@ text-decoration: none;
 #nav li a{display:block ;
 }
 
-
 .active {display:block;
 background-color:#C4C4C4;
-
 }
 
+/*infoga bild på mig*/
+#nav p {background-image: url('http://i295.photobucket.com/albums/mm151/hoottstuffs/549741_3583045779499_1262746047_n.jpg?t=1386203115');
+width:180px;
+height:200px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-left:20px;
+}
 
 a:link {color:#EF3C7B;}
 a:visited {color:#C82E97 }
@@ -100,6 +103,7 @@ font-size:1.1em;}
 
 
 #content { 
+padding-left:5px;
 background-color:#FEFEFE;
 margin-left:230px;  
 margin-right: 10px;
@@ -110,8 +114,10 @@ margin-right: 10px;
 .tabell{border: dotted #EF6C9A;
 margin-left:25%;}
 .tabell th,td {border: none;
-background-color:gray;
 }
+ 
+ 
+    
 
 #bild { width:200px;
 height:150px;
@@ -123,7 +129,7 @@ background-repeat: no-repeat;
 }
 
 #footer { 
-background-color:#910033;
+background-color:#653B3B;
 font-size:0.8em;
 width:100%;
 min-height: 40px;
