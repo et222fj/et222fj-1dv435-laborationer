@@ -1,0 +1,14 @@
+
+#nav {display: none} 
+#container {width: auto ;
+max-height : 10000px;
+overflow: hidden;}
+
+#moln {display: none;
+;}
+
+a:after  { content:" [" attr(href) "] "; }
+
+#content {color: black;}
+h1,h2,h3,h4 {color: black;}
+a:link, a:visited {color:black;}
