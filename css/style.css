@@ -171,6 +171,13 @@ margin-bottom: -15px ;
 }
 
 
+#hem { background-position: 0 -48px ; }
+#hem:hover{ background-position: 0 0;}
+#kontakt {background-position:0 24px  ;}
+#kontakt:hover {background-position:0 72px  ;}
+#mig {background-position:0 120px  ;}
+#mig:hover {background-position:0 168px  ;}
+
 
 
 
