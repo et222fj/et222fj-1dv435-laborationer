@@ -62,7 +62,7 @@ margin-left:10px;
 }    
 
 
-#nav li {background:#EAEAEA;
+#nav ol li {background:#EAEAEA;
 text-align:center;
 width:77%;
 border:solid white 1px;
@@ -71,7 +71,7 @@ font-size:1.1em;
 list-style-type: none;
 text-decoration: none;
 }
-#nav li a{display:block ;
+#nav ol li a{display:block ;
 }
 
 
@@ -150,4 +150,43 @@ min-height: 40px;
 margin-bottom: -15px ;
 
 } 
+
+/*-------------------------------------------------*/
+
+
+
+#social-list a {
+    width:24px;
+    height:24px;
+    display:block;
+    background-image: url("pics/sprite.png");
+    text-indent:-9999px;
+}
+
+
+#social-list  li{
+ float:left; 
+ margin-left:10px;
+ list-style-type:none ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
