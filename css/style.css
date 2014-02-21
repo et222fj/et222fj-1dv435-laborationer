@@ -178,13 +178,19 @@ margin-bottom: -15px ;
 #mig {background-position:0 120px  ;}
 #mig:hover {background-position:0 168px  ;}
 
+/*-----------------------------------------------------*/
 
 
+.hide {
+display: none;
+color:black;
+}
 
-
-
-
-
+#dropdown{
+text-decoration:underline;
+color:blue;
+text-align: center;
+}
 
 
 
